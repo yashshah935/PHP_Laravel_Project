@@ -1,0 +1,5 @@
+1)run migrate without two fector migration file (path : C:\larvel Project\PHPProject\PHPProject_CE122_CE128\database\migrations\2014_10_12_200000_add_two_factor_columns_to_users_table )
+--$php php artisan migrate:fresh
+2)then run with two fector migration file
+--$php artisan migrate
+--$php artisan db:seed
